@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[SerpicoProject]]></title>
+  <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
+  <link href="https://serpicoproject.github.io/"/>
+  <updated>2016-09-26T10:08:29-07:00</updated>
+  <id>https://serpicoproject.github.io/</id>
+  <author>
+    <name><![CDATA[SerpicoProject]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome RubyZip]]></title>
+    <link href="https://serpicoproject.github.io/blog/2016/08/18/long-live-rubyzip/"/>
+    <updated>2016-08-18T21:00:01-07:00</updated>
+    <id>https://serpicoproject.github.io/blog/2016/08/18/long-live-rubyzip</id>
+    <content type="html"><![CDATA[<p>Since the beginning Serpico has used ZipRuby for the Zip library. It&rsquo;s done a sufficient job but it is a mess to install on Windows. Gathering up our technical debt <!-- more --> we switched the code to RubyZip along with refactoring the document process. Really RubyZip is a far better option as it&rsquo;s modern, supported, and installs on Windows.</p>
+
+<p><strong>TLDR</strong></p>
+
+<p>Serpico runs on Windows now. An installer is soon to follow. The wiki is updated here:
+LINK</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Booting Up the Blog and Support]]></title>
+    <link href="https://serpicoproject.github.io/blog/2016/08/18/boot/"/>
+    <updated>2016-08-18T21:00:01-07:00</updated>
+    <id>https://serpicoproject.github.io/blog/2016/08/18/boot</id>
+    <content type="html"><![CDATA[<p><br>
+The first commit for Serpico was February 4th, 2013. Since then we&rsquo;ve had dozens of contributors, <!-- more --> thousands of installs, three appearances at BlackHat Arsenal and a little over 50,000 LOCs written. And that just skims the surface. I am so proud to be a part of something like this.</p>
+
+<p>Up to this point each of us has been contributing in our spare time. Internally we were paying it forward to so many people that helped us. However, recently we&rsquo;ve hit a tough point. To be able to support the community with something worth using, we are going to start offering a paid option for enterprise customers. The paid options are only focused on &ldquo;services&rdquo;; e-mail support, custom installers, document conversion, etc.</p>
+
+<p>All of the information is on the Enterprise Purchase page (<a href="https://www.serpicoproject.com/purchase">https://www.serpicoproject.com/purchase</a>) or send an e-mail to enterprise &ndash;at&mdash; serpicoproject.com.</p>
+
+<h1>Thank you!</h1>
+]]></content>
+  </entry>
+  
+</feed>

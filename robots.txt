@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://serpicoproject.github.io/sitemap.xml 
