@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2016-09-26T10:41:28-07:00</updated>
+  <updated>2016-09-26T18:17:12-07:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -31,14 +31,11 @@
     <link href="https://serpicoproject.github.io/blog/2016/08/18/boot/"/>
     <updated>2016-08-18T21:00:01-07:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/08/18/boot</id>
-    <content type="html"><![CDATA[<p><br>
-The first commit for Serpico was February 4th, 2013. Since then we&rsquo;ve had dozens of contributors, <!-- more --> thousands of installs, three appearances at BlackHat Arsenal and a little over 50,000 LOCs written. And that just skims the surface. I am so proud to be a part of something like this.</p>
+    <content type="html"><![CDATA[<p>The first commit for Serpico was February 4th, 2013. Since then we&rsquo;ve had dozens of contributors, <!-- more --> thousands of installs, three appearances at BlackHat Arsenal and a little over 50,000 LOCs written. And that just skims the surface. I am so proud to be a part of something like this.</p>
 
-<p>Up to this point each of us has been contributing in our spare time. Internally we were paying it forward to so many people that helped us. However, recently we&rsquo;ve hit a tough point. To be able to support the community with something worth using, we are going to start offering a paid option for enterprise customers. The paid options are only focused on &ldquo;services&rdquo;; e-mail support, custom installers, document conversion, etc.</p>
+<p>Up to this point each of us has been contributing in our spare time. Internally we were paying it forward to so many people that helped us. However, recently we&rsquo;ve hit a tough point. To be able to support the community with something worth using, we need to take a chance in offering a paid option for enterprise customers.</p>
 
 <p>All of the information is on the Enterprise Purchase page (<a href="https://www.serpicoproject.com/purchase">https://www.serpicoproject.com/purchase</a>) or send an e-mail to enterprise &ndash;at&mdash; serpicoproject.com.</p>
-
-<h1>Thank you!</h1>
 ]]></content>
   </entry>
   
