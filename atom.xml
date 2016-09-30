@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2016-09-30T11:05:56-07:00</updated>
+  <updated>2016-09-30T14:22:48-07:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -20,27 +20,29 @@
     <id>https://serpicoproject.github.io/blog/2016/09/30/serpico-1-dot-0-is-out</id>
     <content type="html"><![CDATA[<p>BlackHat Arsenal marked the first alpha release of Serpico. Today, after a major effort in the release cycle from Petessss we have hit <a href="https://github.com/SerpicoProject/Serpico/releases/tag/1.0">1.0.0</a>. There&rsquo;s <!-- more --> a lot of stuff in here (55 issues closed since last release; numerous features and bugs) but there are a few things I want to call out:</p>
 
-<h1>Windows and Mac Installer</h1>
+<h2>Windows and OS X Installer</h2>
 
-<p>Using Serpico on Mac and Windows just got way easier thanks to a mega effort from <a href="https://github.com/Petessss">Petessss</a>. Personally, I am really excited about this because I can hammer out reports in my Windows VM and use a clean instance every time.</p>
+<p>Using Serpico on OS X and Windows just got way easier thanks to a mega effort from <a href="https://github.com/Petessss">Petessss</a>. Personally, I am really excited about this because I can hammer out reports in my Windows VM and use a clean instance every time.</p>
 
-<h1>Bulk Upload and Image Insertion Auto-Complete</h1>
+<h2>Bulk Upload and Image Insertion Auto-Complete</h2>
 
 <p>Multiple attachments can now be uploaded at once. This means uploading a directory of screenshots instead of one at a time. Furthermore, just type the character &ldquo;[&rdquo; into the Proof of Concept section and your list of images is loaded similar to GitHub autocomplete. This should hopefully speed up your reporting time.</p>
 
-<h1>New Logo</h1>
+<p><img tyle="border:5px solid black" height=450 width=700 src="https://serpicoproject.github.io/images/BulkUpload.gif"></p>
+
+<h2>New Logo</h2>
 
 <p><a href="https://github.com/ccammilleri">ccammilleri</a> drew up a rad logo. It&rsquo;s on the front page now and if you see us at a conference, ask for stickers.</p>
 
-<h1>RubyZip</h1>
+<h2>RubyZip</h2>
 
 <p>Moving from ZipRuby to RubyZip allowed us to start using Windows. This actually took quite a bit of testing, but glad to see it in there.</p>
 
-<h1>Route Splitting</h1>
+<h2>Route Splitting</h2>
 
 <p>Routes are now split into multiple files. This will pave the way for plug-ins and easier debugging.</p>
 
-<h1>Presentations as PDFs</h1>
+<h2>Presentations as PDFs</h2>
 
 <p>There is a new link to generate your presentation as a PDF ; much easier to hand to a client.</p>
 ]]></content>
@@ -68,7 +70,7 @@
 
 <p>Up to this point each of us has been contributing in our spare time. Internally we were paying it forward to so many people that helped us. However, recently we&rsquo;ve hit a tough point. To be able to support the community with something worth using, we need to take a chance in offering a paid option for enterprise customers.</p>
 
-<p>All of the information is on the Enterprise Purchase page (<a href="https://www.serpicoproject.com/purchase">https://www.serpicoproject.com/purchase</a>) or send an e-mail to enterprise &ndash;at&mdash; serpicoproject.com.</p>
+<p>All of the information is on the Services and Support page (<a href="https://www.serpicoproject.com/purchase">https://www.serpicoproject.com/purchase</a>) or send an e-mail to enterprise &ndash;at&mdash; serpicoproject.com.</p>
 ]]></content>
   </entry>
   
