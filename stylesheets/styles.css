@@ -745,6 +745,14 @@ h1 {
 h1 a {
     font-weight: bold;
 }
+h2 {
+    margin-top: 5px;
+    line-height: 1.4em;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .main article .article-date, .main article .article-tags {
     color: #ababab;
     font-size: 0.8em;
