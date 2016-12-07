@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Welcome RubyZip - SerpicoProject</title>
+  <title>Release 1.1.0 is out - SerpicoProject</title>
   <meta name="author" content="SerpicoProject">
 
   
-  <meta name="description" content="Welcome RubyZip Since the beginning Serpico has used ZipRuby for the Zip library. It&rsquo;s done a sufficient job but it is a mess to install on &hellip;">
+  <meta name="description" content="Release 1.1.0 is out Release 1.1.0 went out on Friday. It&rsquo;s a relatively small release feature wise but there are a couple of things to call &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -108,16 +108,24 @@
   </div>
   
     <h1>
-      Welcome RubyZip
+      Release 1.1.0 is out
     </h1>
   
 </header>
 
-  <section><p>Since the beginning Serpico has used ZipRuby for the Zip library. It&rsquo;s done a sufficient job but it is a mess to install on Windows. Gathering up our technical debt <!-- more --> we switched the code to RubyZip along with refactoring the document process. Really RubyZip is a far better option as it&rsquo;s modern, supported, and installs on Windows.</p>
+  <section><p>Release <a href="https://github.com/SerpicoProject/Serpico/releases/tag/1.1.0">1.1.0</a> went out on Friday. It&rsquo;s <!-- more --> a relatively small release feature wise but there are a couple of things to call out:</p>
 
-<h1>TLDR</h1>
+<h2>Serpico Plug-in Framework</h2>
 
-<p>Serpico runs on Windows now. An installer is soon to follow. =)</p>
+<p>For a while we&rsquo;ve wanted a way to test out functionality without requiring it be in the master branch. Plug-ins are an awesome way to do this. You can add completely new functionality (with access to the DB, etc) in a small and easy to test/maintain package. More blog posts about this on the way. For now check out <a href="https://github.com/SerpicoProject/Serpico/wiki/Plug-ins">here</a> and in the <a href="https://github.com/SerpicoProject/SerpicoPlugins/wiki/Main-Page">Serpico Plugins Project</a>.</p>
+
+<h2>Automated Build Process</h2>
+
+<p>Our resident deployment ninja <a href="https://github.com/Petessss">Petessss</a> put together an automated build process. This has cut down on the time it takes to create a build considerably. The goal is get releases out for testing more often.</p>
+
+<h2>Markdown sanity check</h2>
+
+<p>We implemented a feature that will report errors in the markdown when attempting to save a finding. Previously this could break a report and was annoying to troubleshoot. We should be improving the markdown process more in the future.</p>
 </section>
 
 

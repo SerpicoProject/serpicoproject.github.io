@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2016-09-30T14:22:48-07:00</updated>
+  <updated>2016-12-06T19:12:55-08:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Release 1.1.0 is out]]></title>
+    <link href="https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0/"/>
+    <updated>2016-12-05T12:33:36-08:00</updated>
+    <id>https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0</id>
+    <content type="html"><![CDATA[<p>Release <a href="https://github.com/SerpicoProject/Serpico/releases/tag/1.1.0">1.1.0</a> went out on Friday. It&rsquo;s <!-- more --> a relatively small release feature wise but there are a couple of things to call out:</p>
+
+<h2>Serpico Plug-in Framework</h2>
+
+<p>For a while we&rsquo;ve wanted a way to test out functionality without requiring it be in the master branch. Plug-ins are an awesome way to do this. You can add completely new functionality (with access to the DB, etc) in a small and easy to test/maintain package. More blog posts about this on the way. For now check out <a href="https://github.com/SerpicoProject/Serpico/wiki/Plug-ins">here</a> and in the <a href="https://github.com/SerpicoProject/SerpicoPlugins/wiki/Main-Page">Serpico Plugins Project</a>.</p>
+
+<h2>Automated Build Process</h2>
+
+<p>Our resident deployment ninja <a href="https://github.com/Petessss">Petessss</a> put together an automated build process. This has cut down on the time it takes to create a build considerably. The goal is get releases out for testing more often.</p>
+
+<h2>Markdown sanity check</h2>
+
+<p>We implemented a feature that will report errors in the markdown when attempting to save a finding. Previously this could break a report and was annoying to troubleshoot. We should be improving the markdown process more in the future.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Serpico 1.0.0 is out]]></title>
