@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico/</loc>
+    <lastmod>2016-12-17T08:54:57-08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0/</loc>
     <lastmod>2016-12-05T12:33:36-08:00</lastmod>
     <priority>0.8</priority>
@@ -28,36 +34,36 @@
   
   
   <url>
-    <loc>https://serpicoproject.github.io/</loc>
-    <lastmod>2016-12-06T19:12:55-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
     <loc>https://serpicoproject.github.io/blog/archives/</loc>
-    <lastmod>2016-12-06T19:12:55-08:00</lastmod>
+    <lastmod>2016-12-17T09:25:35-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
+    <loc>https://serpicoproject.github.io/</loc>
+    <lastmod>2016-12-17T09:25:35-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://serpicoproject.github.io/purchase/</loc>
-    <lastmod>2016-12-06T19:12:55-08:00</lastmod>
+    <lastmod>2016-12-17T09:25:35-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://serpicoproject.github.io/about/</loc>
-    <lastmod>2016-12-06T19:12:55-08:00</lastmod>
+    <lastmod>2016-12-17T09:25:35-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://serpicoproject.github.io/list_posts.html</loc>
-    <lastmod>2016-12-06T19:12:55-08:00</lastmod>
+    <lastmod>2016-12-17T09:25:35-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

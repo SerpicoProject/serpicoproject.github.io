@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2016-12-06T19:12:55-08:00</updated>
+  <updated>2016-12-17T09:25:35-08:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Monkey Patching Serpico]]></title>
+    <link href="https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico/"/>
+    <updated>2016-12-17T08:54:57-08:00</updated>
+    <id>https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico</id>
+    <content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Monkey_patch">Monkey Patching</a> is a technique to modify the way a dynamic language operates at run time. One of the goals we had from the plug-in framework is that it would allow a developer to overwrite parts of Serpico. <!-- more --> Specifically, a developer could completely modify the way some part of their reporting process works with a minimal amount of code.</p>
+
+<p>This blog post is about the <a href="https://github.com/SerpicoProject/SerpicoPlugins/tree/master/Auth_Mode">Auth_Mode</a> plugin which is a simple example of a plugin to monkey patch Serpico.</p>
+
+<h2>Warning</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Auth_Mode is powerful, it completely disables authentication and authorization. When installed and enabled, any user who visits the server is a full administrator without logging in.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I use Auth_Mode to speed up my development process; specifically when I want to change quickly between users or as a full administrator without using a password or navigation.</p>
+
+<h2>run.rb</h2>
+
+<p>There is only one file in the Auth_Mode plugin; <a href="https://github.com/SerpicoProject/SerpicoPlugins/blob/master/Auth_Mode/run.rb">run.rb</a>. First, run.rb overrides the Serpico server itself with the line:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>...
+</span><span class='line'>  class Server &lt; Sinatra::Application
+</span><span class='line'>...</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When this code is loaded, any methods contained in run.rb will override existing Server.rb methods. Note, the rest of the server is left as is.</p>
+
+<p>Next, run.rb overrides the is_administrator? call which is used throughout Serpico to check if a user is an administrator:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> def is_administrator?
+</span><span class='line'>      return true
+</span><span class='line'>  end</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And that&rsquo;s it! Everytime the server looks to check if a user is an administrator, this method is overridden to always return true.</p>
+
+<h2>Other Applications</h2>
+
+<p>I kept this plug-in short on purpose. There are many many other ways you could apply similar ideas. For example:</p>
+
+<ul>
+<li>Override report generation to always store on another server</li>
+<li>Third party logging</li>
+<li>Extend the API</li>
+<li>Parse input data on another server</li>
+</ul>
+
+
+<h2>Note</h2>
+
+<p>As of today you will need to use a Master branch version of Serpico for this to work. Release 1.1.1 which should be out within the next few weeks will natively support this functionality.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Release 1.1.0 is out]]></title>
