@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Welcome RubyZip - SerpicoProject</title>
+  <title>UDV Worksheet - Plugin Tradecraft - SerpicoProject</title>
   <meta name="author" content="SerpicoProject">
 
   
-  <meta name="description" content="Welcome RubyZip Since the beginning Serpico has used ZipRuby for the Zip library. It&rsquo;s done a sufficient job but it is a mess to install on &hellip;">
+  <meta name="description" content="UDV Worksheet - Plugin Tradecraft The UDV Worksheet plugin allows administrators to create questions that can be filled out by consultants. The &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -108,16 +108,38 @@
   </div>
   
     <h1>
-      Welcome RubyZip
+      UDV Worksheet - Plugin Tradecraft
     </h1>
   
 </header>
 
-  <section><p>Since the beginning Serpico has used ZipRuby for the Zip library. It&rsquo;s done a sufficient job but it is a mess to install on Windows. Gathering up our technical debt <!-- more --> we switched the code to RubyZip along with refactoring the document process. Really RubyZip is a far better option as it&rsquo;s modern, supported, and installs on Windows.</p>
+  <section><p>The <a href="https://github.com/SerpicoProject/SerpicoPlugins/tree/master/UDV_Worksheet">UDV Worksheet</a> plugin allows administrators to create questions that can be filled out by consultants. The answers are inserted into the report as User Defined Variables that then <!-- more -->. It is handy because it can centralize questions that are typically added in an assessment.</p>
 
-<h1>TLDR</h1>
+<p><img style="border:1px solid black" height=350 width=550 src="/images/UDV_Worksheet_1.png"></p>
 
-<p>Serpico runs on Windows now. An installer is soon to follow. =)</p>
+<p><img style="border:1px solid black" height=350 width=450 src="/images/UDV_Worksheet_2.png"></p>
+
+<p>It also illustrates the use of multiple databases in a plugin.</p>
+
+<h2>Multiple Databases</h2>
+
+<p>One of the cool things about plugins is you can have multiple database connections. Two things are required, a connection to the database <a href="https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/master_udv.rb#L7">1</a></p>
+
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>DataMapper.setup(:udv, "sqlite://#{Dir.pwd}/plugins/UDV_Worksheet/udv.db")</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+
+<p>A call to the secondary database is done using the Datamapper repository method (<a href="https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/routes.rb#L23">https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/routes.rb#L23</a>).</p>
+
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> DataMapper.repository(:udv) {
+</span><span class='line'>      @questions = Questions.all(:report_id =&gt; 0)
+</span><span class='line'>  }</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+
+<p>Note, in this case we use a SQLite database. But with the addition of a different data mapper gem (e.g. dm-mysql-adapter), you could make a connection to another database.</p>
 </section>
 
 

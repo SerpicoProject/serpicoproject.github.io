@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2016-12-17T09:25:35-08:00</updated>
+  <updated>2016-12-17T18:28:10-08:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[UDV Worksheet - Plugin Tradecraft]]></title>
+    <link href="https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example/"/>
+    <updated>2016-12-17T15:44:02-08:00</updated>
+    <id>https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example</id>
+    <content type="html"><![CDATA[<p>The <a href="https://github.com/SerpicoProject/SerpicoPlugins/tree/master/UDV_Worksheet">UDV Worksheet</a> plugin allows administrators to create questions that can be filled out by consultants. The answers are inserted into the report as User Defined Variables that then <!-- more -->. It is handy because it can centralize questions that are typically added in an assessment.</p>
+
+<p><img style="border:1px solid black" height=350 width=550 src="https://serpicoproject.github.io/images/UDV_Worksheet_1.png"></p>
+
+<p><img style="border:1px solid black" height=350 width=450 src="https://serpicoproject.github.io/images/UDV_Worksheet_2.png"></p>
+
+<p>It also illustrates the use of multiple databases in a plugin.</p>
+
+<h2>Multiple Databases</h2>
+
+<p>One of the cool things about plugins is you can have multiple database connections. Two things are required, a connection to the database <a href="https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/master_udv.rb#L7">1</a></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>DataMapper.setup(:udv, "sqlite://#{Dir.pwd}/plugins/UDV_Worksheet/udv.db")</span></code></pre></td></tr></table></div></figure>
+
+
+<p>A call to the secondary database is done using the Datamapper repository method (<a href="https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/routes.rb#L23">https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/routes.rb#L23</a>).</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> DataMapper.repository(:udv) {
+</span><span class='line'>      @questions = Questions.all(:report_id =&gt; 0)
+</span><span class='line'>  }</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Note, in this case we use a SQLite database. But with the addition of a different data mapper gem (e.g. dm-mysql-adapter), you could make a connection to another database.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Monkey Patching Serpico]]></title>
@@ -110,7 +145,7 @@
 
 <p>Multiple attachments can now be uploaded at once. This means uploading a directory of screenshots instead of one at a time. Furthermore, just type the character &ldquo;[&rdquo; into the Proof of Concept section and your list of images is loaded similar to GitHub autocomplete. This should hopefully speed up your reporting time.</p>
 
-<p><img tyle="border:5px solid black" height=450 width=700 src="https://serpicoproject.github.io/images/BulkUpload.gif"></p>
+<p><img style="border:1px solid black" height=450 width=700 src="https://serpicoproject.github.io/images/BulkUpload.gif"></p>
 
 <h2>New Logo</h2>
 
