@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2016-12-17T18:28:10-08:00</updated>
+  <updated>2016-12-17T18:30:41-08:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -18,7 +18,7 @@
     <link href="https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example/"/>
     <updated>2016-12-17T15:44:02-08:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example</id>
-    <content type="html"><![CDATA[<p>The <a href="https://github.com/SerpicoProject/SerpicoPlugins/tree/master/UDV_Worksheet">UDV Worksheet</a> plugin allows administrators to create questions that can be filled out by consultants. The answers are inserted into the report as User Defined Variables that then <!-- more -->. It is handy because it can centralize questions that are typically added in an assessment.</p>
+    <content type="html"><![CDATA[<p>The <a href="https://github.com/SerpicoProject/SerpicoPlugins/tree/master/UDV_Worksheet">UDV Worksheet</a> plugin allows administrators to create questions that can be filled out by consultants. The answers are inserted into the report as User Defined Variables<!-- more -->. It is really handy because it can centralize questions that are typically added in an assessment while still allowing them to be used throughout a report template.</p>
 
 <p><img style="border:1px solid black" height=350 width=550 src="https://serpicoproject.github.io/images/UDV_Worksheet_1.png"></p>
 
