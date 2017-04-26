@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2016-12-17T18:30:41-08:00</updated>
+  <updated>2017-04-26T16:30:25-07:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Serpico on a Beaglebone - Arsenal 2016]]></title>
+    <link href="https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone/"/>
+    <updated>2017-04-21T05:20:32-07:00</updated>
+    <id>https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone</id>
+    <content type="html"><![CDATA[<p>Just wanted to share a cool image from last year&rsquo;s <a href="https://www.blackhat.com/us-16/arsenal.html#serpico">BlackHat Arsenal</a>
+<img style="border:1px solid black center" height=350 width=550 src="https://serpicoproject.github.io/images/beaglebone.jpg"></p>
+
+<!-- more -->
+
+
+<p>This is Serpico installed and running on a BeagleBone Green (small form factor, 512MB DDR3)</p>
+
+<p>From the beginning we&rsquo;ve tried to keep Serpico&rsquo;s memory footprint small. The original Serpico (circa 2014) was kept on a Raspberry Pi. We would bring it on site to engagements and all connect to collaborate on reports.</p>
+
+<p>Thanks should go to the always awesome Michael Belton, Optiv for sponsoring the BeagleBone Greens last year, and <a href="https://github.com/Petessss">Pete</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[UDV Worksheet - Plugin Tradecraft]]></title>
@@ -145,7 +164,7 @@
 
 <p>Multiple attachments can now be uploaded at once. This means uploading a directory of screenshots instead of one at a time. Furthermore, just type the character &ldquo;[&rdquo; into the Proof of Concept section and your list of images is loaded similar to GitHub autocomplete. This should hopefully speed up your reporting time.</p>
 
-<p><img style="border:1px solid black" height=450 width=700 src="https://serpicoproject.github.io/images/BulkUpload.gif"></p>
+<p><img tyle="border:5px solid black" height=450 width=700 src="https://serpicoproject.github.io/images/BulkUpload.gif"></p>
 
 <h2>New Logo</h2>
 
