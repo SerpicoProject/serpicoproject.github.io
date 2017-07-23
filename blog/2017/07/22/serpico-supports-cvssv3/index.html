@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Serpico 1.2 Feature: Plug-In Framework - SerpicoProject</title>
+  <title>Serpico Supports CVSSv3 - SerpicoProject</title>
   <meta name="author" content="SerpicoProject">
 
   
-  <meta name="description" content="Serpico 1.2 Feature: Plug-In Framework The Serpico team has been hard at work adding features to lessen the burden of reporting. One of our latest &hellip;">
+  <meta name="description" content="Serpico Supports CVSSv3 Thanks to aconite33 @zeekzack and some Serpico team integration, Serpico now supports CVSS version 3. Enabling CVSSv3 &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -108,16 +108,29 @@
   </div>
   
     <h1>
-      Serpico 1.2 Feature: Plug-In Framework
+      Serpico Supports CVSSv3
     </h1>
   
 </header>
 
-  <section><p>The Serpico team has been hard at work adding features to lessen the burden of reporting. One of our latest features <!-- more --> is the Plugin framework. One of the goals we had for the plug-in framework was to allow a developer to overwrite parts of Serpico. Plug-ins give developers tremendous power and flexibility to extent Serpico to meet their specific needs. With plug-ins, developers no longer have to worry about their secret sauce getting overwritten when updating the core framework.</p>
+  <section><p>Thanks to aconite33 <a href="https://www.twitter.com/zeekzack">@zeekzack</a> and some Serpico team integration, Serpico now supports CVSS version 3. Enabling CVSSv3 reporting is as simple as <!-- more --> going to the Administration menu -&gt; Modify Configurations, and selecting CVSS3 as the Risk Scoring Algorithm.</p>
 
-<p>Our first example is the Auth_Mode plug-in described in <a href="https://www.serpicoproject.com/blog/2016/12/17/monkey-patching-%20serpico/">Monkey Patching Serpico</a>. As a developer, the Auth_Mode plugin is a <em>must</em> have and speeds up development time. Our second example plug-in deals with custom User Defined Variables as shown in <a href="https://www.serpicoproject.com/blog/2016/12/17/udv-worksheet-example/">UDV Worksheet</a>. This post is a great example of using a plug-in to extend the framework. With some additional tweaks and creativity, this plug-in can be used to assist in gap style assessments such as those used for HIPPA or PCI.</p>
+<p><img style="border:1px solid black center" height=350 width=550 src="/images/cvssv3.jpg"></p>
 
-<p>If you’re at Black Hat next week stop by and check out these new features in action. We’ll be at the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
+<p>Now that CVSS3 is enabled, when you edit or add a finding you’ll see the new metric names.</p>
+
+<p><img style="border:1px solid black center" height=350 width=550 src="/images/findings.jpg"></p>
+
+<p>Last but not least, there is a button “CVSS Vector String” which will automatically update the metric value based on a vector string. As an example:</p>
+
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/RL:O/CR:H</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+
+<p>To round out the new CVSS 3 scoring, we have included a CVSS 3 report template. A copy of the template report can found at <a href="https://github.com/SerpicoProject/Serpico/blob/master/templates/Default%20CVSS%203%20Report.docx">CVSSv3 Report Template</a>, or pulled directly from the main Serpico repository.</p>
+
+<p>If you’re at Black Hat next week stop by and check out these new features in action. We’ll be at
+the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
 </section>
 
 

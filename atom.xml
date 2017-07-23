@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2017-07-22T21:06:53-04:00</updated>
+  <updated>2017-07-22T21:22:09-04:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Serpico Supports CVSSv3]]></title>
+    <link href="https://serpicoproject.github.io/blog/2017/07/22/serpico-supports-cvssv3/"/>
+    <updated>2017-07-22T21:10:05-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2017/07/22/serpico-supports-cvssv3</id>
+    <content type="html"><![CDATA[<p>Thanks to aconite33 <a href="https://www.twitter.com/zeekzack">@zeekzack</a> and some Serpico team integration, Serpico now supports CVSS version 3. Enabling CVSSv3 reporting is as simple as <!-- more --> going to the Administration menu -&gt; Modify Configurations, and selecting CVSS3 as the Risk Scoring Algorithm.</p>
+
+<p><img style="border:1px solid black center" height=350 width=550 src="https://serpicoproject.github.io/images/cvssv3.jpg"></p>
+
+<p>Now that CVSS3 is enabled, when you edit or add a finding you’ll see the new metric names.</p>
+
+<p><img style="border:1px solid black center" height=350 width=550 src="https://serpicoproject.github.io/images/findings.jpg"></p>
+
+<p>Last but not least, there is a button “CVSS Vector String” which will automatically update the metric value based on a vector string. As an example:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/RL:O/CR:H</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To round out the new CVSS 3 scoring, we have included a CVSS 3 report template. A copy of the template report can found at <a href="https://github.com/SerpicoProject/Serpico/blob/master/templates/Default%20CVSS%203%20Report.docx">CVSSv3 Report Template</a>, or pulled directly from the main Serpico repository.</p>
+
+<p>If you’re at Black Hat next week stop by and check out these new features in action. We’ll be at
+the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Serpico 1.2 Feature: Plug-In Framework]]></title>
