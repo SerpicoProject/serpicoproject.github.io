@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2017-04-26T16:42:13-07:00</updated>
+  <updated>2017-07-22T21:06:53-04:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -14,9 +14,22 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Serpico 1.2 Feature: Plug-In Framework]]></title>
+    <link href="https://serpicoproject.github.io/blog/2017/07/22/serpico-1-dot-2-feature-plug-in-framework/"/>
+    <updated>2017-07-22T20:47:54-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2017/07/22/serpico-1-dot-2-feature-plug-in-framework</id>
+    <content type="html"><![CDATA[<p>The Serpico team has been hard at work adding features to lessen the burden of reporting. One of our latest features <!-- more --> is the Plugin framework. One of the goals we had for the plug-in framework was to allow a developer to overwrite parts of Serpico. Plug-ins give developers tremendous power and flexibility to extent Serpico to meet their specific needs. With plug-ins, developers no longer have to worry about their secret sauce getting overwritten when updating the core framework.</p>
+
+<p>Our first example is the Auth_Mode plug-in described in <a href="https://www.serpicoproject.com/blog/2016/12/17/monkey-patching-%20serpico/">Monkey Patching Serpico</a>. As a developer, the Auth_Mode plugin is a <em>must</em> have and speeds up development time. Our second example plug-in deals with custom User Defined Variables as shown in <a href="https://www.serpicoproject.com/blog/2016/12/17/udv-worksheet-example/">UDV Worksheet</a>. This post is a great example of using a plug-in to extend the framework. With some additional tweaks and creativity, this plug-in can be used to assist in gap style assessments such as those used for HIPPA or PCI.</p>
+
+<p>If you’re at Black Hat next week stop by and check out these new features in action. We’ll be at the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Serpico on a Beaglebone - Arsenal 2016]]></title>
     <link href="https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone/"/>
-    <updated>2017-04-21T05:20:32-07:00</updated>
+    <updated>2017-04-21T08:20:32-04:00</updated>
     <id>https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone</id>
     <content type="html"><![CDATA[<p>Just wanted to share a cool image from last year&rsquo;s <a href="https://www.blackhat.com/us-16/arsenal.html#serpico">BlackHat Arsenal</a>
 <img style="border:1px solid black center" height=350 width=550 src="https://serpicoproject.github.io/images/beaglebone.jpg"></p>
@@ -35,7 +48,7 @@
   <entry>
     <title type="html"><![CDATA[UDV Worksheet - Plugin Tradecraft]]></title>
     <link href="https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example/"/>
-    <updated>2016-12-17T15:44:02-08:00</updated>
+    <updated>2016-12-17T18:44:02-05:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example</id>
     <content type="html"><![CDATA[<p>The <a href="https://github.com/SerpicoProject/SerpicoPlugins/tree/master/UDV_Worksheet">UDV Worksheet</a> plugin allows administrators to create questions that can be filled out by consultants. The answers are inserted into the report as User Defined Variables<!-- more -->. It is really handy because it can centralize questions that are typically added in an assessment while still allowing them to be used throughout a report template.</p>
 
@@ -70,7 +83,7 @@
   <entry>
     <title type="html"><![CDATA[Monkey Patching Serpico]]></title>
     <link href="https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico/"/>
-    <updated>2016-12-17T08:54:57-08:00</updated>
+    <updated>2016-12-17T11:54:57-05:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico</id>
     <content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Monkey_patch">Monkey Patching</a> is a technique to modify the way a dynamic language operates at run time. One of the goals we had from the plug-in framework is that it would allow a developer to overwrite parts of Serpico. <!-- more --> Specifically, a developer could completely modify the way some part of their reporting process works with a minimal amount of code.</p>
 
@@ -131,7 +144,7 @@
   <entry>
     <title type="html"><![CDATA[Release 1.1.0 is out]]></title>
     <link href="https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0/"/>
-    <updated>2016-12-05T12:33:36-08:00</updated>
+    <updated>2016-12-05T15:33:36-05:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0</id>
     <content type="html"><![CDATA[<p>Release <a href="https://github.com/SerpicoProject/Serpico/releases/tag/1.1.0">1.1.0</a> went out on Friday. It&rsquo;s <!-- more --> a relatively small release feature wise but there are a couple of things to call out:</p>
 
@@ -152,7 +165,7 @@
   <entry>
     <title type="html"><![CDATA[Serpico 1.0.0 is out]]></title>
     <link href="https://serpicoproject.github.io/blog/2016/09/30/serpico-1-dot-0-is-out/"/>
-    <updated>2016-09-30T10:40:59-07:00</updated>
+    <updated>2016-09-30T13:40:59-04:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/09/30/serpico-1-dot-0-is-out</id>
     <content type="html"><![CDATA[<p>BlackHat Arsenal marked the first alpha release of Serpico. Today, after a major effort in the release cycle from Petessss we have hit <a href="https://github.com/SerpicoProject/Serpico/releases/tag/1.0">1.0.0</a>. There&rsquo;s <!-- more --> a lot of stuff in here (55 issues closed since last release; numerous features and bugs) but there are a few things I want to call out:</p>
 
@@ -186,9 +199,9 @@
   
   <entry>
     <title type="html"><![CDATA[Welcome RubyZip]]></title>
-    <link href="https://serpicoproject.github.io/blog/2016/08/18/long-live-rubyzip/"/>
-    <updated>2016-08-18T21:00:01-07:00</updated>
-    <id>https://serpicoproject.github.io/blog/2016/08/18/long-live-rubyzip</id>
+    <link href="https://serpicoproject.github.io/blog/2016/08/19/long-live-rubyzip/"/>
+    <updated>2016-08-19T00:00:01-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2016/08/19/long-live-rubyzip</id>
     <content type="html"><![CDATA[<p>Since the beginning Serpico has used ZipRuby for the Zip library. It&rsquo;s done a sufficient job but it is a mess to install on Windows. Gathering up our technical debt <!-- more --> we switched the code to RubyZip along with refactoring the document process. Really RubyZip is a far better option as it&rsquo;s modern, supported, and installs on Windows.</p>
 
 <h1>TLDR</h1>
@@ -199,9 +212,9 @@
   
   <entry>
     <title type="html"><![CDATA[Booting Up the Blog and Support]]></title>
-    <link href="https://serpicoproject.github.io/blog/2016/08/18/boot/"/>
-    <updated>2016-08-18T21:00:01-07:00</updated>
-    <id>https://serpicoproject.github.io/blog/2016/08/18/boot</id>
+    <link href="https://serpicoproject.github.io/blog/2016/08/19/boot/"/>
+    <updated>2016-08-19T00:00:01-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2016/08/19/boot</id>
     <content type="html"><![CDATA[<p>The first commit for Serpico was February 4th, 2013. Since then we&rsquo;ve had dozens of contributors, <!-- more --> thousands of installs, three appearances at BlackHat Arsenal and a little over 50,000 LOCs written. And that just skims the surface. I am so proud to be a part of something like this.</p>
 
 <p>Up to this point each of us has been contributing in our spare time. Internally we were paying it forward to so many people that helped us. However, recently we&rsquo;ve hit a tough point. To be able to support the community with something worth using, we need to take a chance in offering a paid option for enterprise customers.</p>
