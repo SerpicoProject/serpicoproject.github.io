@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>UDV Worksheet - Plugin Tradecraft - SerpicoProject</title>
+  <title>Serpico Gets Risk Matrix Reporting - SerpicoProject</title>
   <meta name="author" content="SerpicoProject">
 
   
-  <meta name="description" content="UDV Worksheet - Plugin Tradecraft The UDV Worksheet plugin allows administrators to create questions that can be filled out by consultants. The &hellip;">
+  <meta name="description" content="Serpico Gets Risk Matrix Reporting In the last few weeks thanks to contributors and the Serpico team members’ updates, new report types have been &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -108,38 +108,22 @@
   </div>
   
     <h1>
-      UDV Worksheet - Plugin Tradecraft
+      Serpico Gets Risk Matrix Reporting
     </h1>
   
 </header>
 
-  <section><p>The <a href="https://github.com/SerpicoProject/SerpicoPlugins/tree/master/UDV_Worksheet">UDV Worksheet</a> plugin allows administrators to create questions that can be filled out by consultants. The answers are inserted into the report as User Defined Variables<!-- more -->. It is really handy because it can centralize questions that are typically added in an assessment while still allowing them to be used throughout a report template.</p>
+  <section><p>In the last few weeks thanks to contributors and the Serpico team members’ updates, new report types have been added to the framework. One of the recent additions was the Risk Matrix scoring submitted by geckom. <!-- more --></p>
 
-<p><img style="border:1px solid black" height=350 width=550 src="/images/UDV_Worksheet_1.png"></p>
+<p>Similar to other report types, switching to Risk Matrix is simple. Just change the Risk Scoring Algorithm under the Administration menu -&gt; Modify Configurations.</p>
 
-<p><img style="border:1px solid black" height=350 width=450 src="/images/UDV_Worksheet_2.png"></p>
+<p><img style="border:1px solid black center" height=100 width=350 src="/images/rixk.jpg"></p>
 
-<p>It also illustrates the use of multiple databases in a plugin.</p>
+<p>With Risk Matrix enabled, we find new options when editing or adding a new finding. We have Vulnerability Risk Level, Severity, Severity Rationale, Likelihood and Likelihood Rationale options in our findings.</p>
 
-<h2>Multiple Databases</h2>
+<p><img style="border:1px solid black center" height=350 width=550 src="/images/risk_matrix.jpg"></p>
 
-<p>One of the cool things about plugins is you can have multiple database connections. Two things are required, a connection to the database <a href="https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/master_udv.rb#L7">1</a></p>
-
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>DataMapper.setup(:udv, "sqlite://#{Dir.pwd}/plugins/UDV_Worksheet/udv.db")</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-
-<p>A call to the secondary database is done using the Datamapper repository method (<a href="https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/routes.rb#L23">https://github.com/SerpicoProject/SerpicoPlugins/blob/master/UDV_Worksheet/routes.rb#L23</a>).</p>
-
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'> DataMapper.repository(:udv) {
-</span><span class='line'>      @questions = Questions.all(:report_id =&gt; 0)
-</span><span class='line'>  }</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-
-<p>Note, in this case we use a SQLite database. But with the addition of a different data mapper gem (e.g. dm-mysql-adapter), you could make a connection to another database.</p>
+<p>If you’re at Black Hat next week stop by and check out these new features in action. We’ll be at the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
 </section>
 
 

@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2017-07-22T21:22:09-04:00</updated>
+  <updated>2017-07-22T21:29:56-04:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Serpico Gets Risk Matrix Reporting]]></title>
+    <link href="https://serpicoproject.github.io/blog/2017/07/22/serpico-gets-risk-matrix-reporting/"/>
+    <updated>2017-07-22T21:25:01-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2017/07/22/serpico-gets-risk-matrix-reporting</id>
+    <content type="html"><![CDATA[<p>In the last few weeks thanks to contributors and the Serpico team members’ updates, new report types have been added to the framework. One of the recent additions was the Risk Matrix scoring submitted by geckom. <!-- more --></p>
+
+<p>Similar to other report types, switching to Risk Matrix is simple. Just change the Risk Scoring Algorithm under the Administration menu -&gt; Modify Configurations.</p>
+
+<p><img style="border:1px solid black center" height=100 width=350 src="https://serpicoproject.github.io/images/rixk.jpg"></p>
+
+<p>With Risk Matrix enabled, we find new options when editing or adding a new finding. We have Vulnerability Risk Level, Severity, Severity Rationale, Likelihood and Likelihood Rationale options in our findings.</p>
+
+<p><img style="border:1px solid black center" height=350 width=550 src="https://serpicoproject.github.io/images/risk_matrix.jpg"></p>
+
+<p>If you’re at Black Hat next week stop by and check out these new features in action. We’ll be at the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Serpico Supports CVSSv3]]></title>
