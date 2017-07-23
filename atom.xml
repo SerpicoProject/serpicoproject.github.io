@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2017-07-22T21:29:56-04:00</updated>
+  <updated>2017-07-22T21:48:43-04:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Serpico 1.2 Feature: Serpico Has Vector Strings]]></title>
+    <link href="https://serpicoproject.github.io/blog/2017/07/22/serpico-1-dot-2-feature-serpico-has-vector-strings/"/>
+    <updated>2017-07-22T21:45:59-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2017/07/22/serpico-1-dot-2-feature-serpico-has-vector-strings</id>
+    <content type="html"><![CDATA[<p>If you are using either CVSS scoring then you should know it is much easier to add a vector string to your report. <!-- more --></p>
+
+<p>After you click save on a finding the vector string is automatically calculated and added to the DB. To use the vector string in your report, use</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>πc2_vsπ
+</span><span class='line'>πc3_vsπ</span></code></pre></td></tr></table></div></figure>
+
+
+<p>For existing findings you will need to edit and re-save the finding or automate the process.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Serpico Gets Risk Matrix Reporting]]></title>

@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Serpico on a Beaglebone - Arsenal 2016 - SerpicoProject</title>
+  <title>Serpico 1.2 Feature: Serpico Has Vector Strings - SerpicoProject</title>
   <meta name="author" content="SerpicoProject">
 
   
-  <meta name="description" content="Serpico on a Beaglebone - Arsenal 2016 Just wanted to share a cool image from last year&rsquo;s BlackHat Arsenal This is Serpico installed and &hellip;">
+  <meta name="description" content="Serpico 1.2 Feature: Serpico Has Vector Strings If you are using either CVSS scoring then you should know it is much easier to add a vector string &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -108,22 +108,22 @@
   </div>
   
     <h1>
-      Serpico on a Beaglebone - Arsenal 2016
+      Serpico 1.2 Feature: Serpico Has Vector Strings
     </h1>
   
 </header>
 
-  <section><p>Just wanted to share a cool image from last year&rsquo;s <a href="https://www.blackhat.com/us-16/arsenal.html#serpico">BlackHat Arsenal</a>
-<img style="border:1px solid black center" height=350 width=550 src="/images/beaglebone.jpg"></p>
+  <section><p>If you are using either CVSS scoring then you should know it is much easier to add a vector string to your report. <!-- more --></p>
 
-<!-- more -->
+<p>After you click save on a finding the vector string is automatically calculated and added to the DB. To use the vector string in your report, use</p>
+
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>πc2_vsπ
+</span><span class='line'>πc3_vsπ</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 
-<p>This is Serpico installed and running on a BeagleBone Green (small form factor, 512MB DDR3)</p>
-
-<p>From the beginning we&rsquo;ve tried to keep Serpico&rsquo;s memory footprint small. The original Serpico (circa 2014) was kept on a Raspberry Pi. We would bring it on site to engagements and all connect to collaborate on reports.</p>
-
-<p>Thanks should go to the always awesome Michael Belton, Optiv for sponsoring the BeagleBone Greens last year, and <a href="https://github.com/Petessss">Pete</a>.</p>
+<p>For existing findings you will need to edit and re-save the finding or automate the process.</p>
 </section>
 
 
