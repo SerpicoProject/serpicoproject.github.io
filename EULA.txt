@@ -1,4 +1,4 @@
-The SOFTWARE PRODUCT (SERPICO) is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold. 
+The SOFTWARE PRODUCT (SERPICO) is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold. The SOFTWARE PRODUCT itself is released under a BSD-3-clause license.
 
 1. LICENSES
 SERPICO is licensed as follows:
