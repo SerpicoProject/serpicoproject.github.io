@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2017-10-25T10:27:27-04:00</updated>
+  <updated>2018-05-18T13:13:23-04:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating Support to Slack]]></title>
+    <link href="https://serpicoproject.github.io/blog/2018/05/16/migrating-support-to-slack/"/>
+    <updated>2018-05-16T14:42:11-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2018/05/16/migrating-support-to-slack</id>
+    <content type="html"><![CDATA[<p>Over the past few months the team has been migrating Serpico support away from IRC and over to Slack. If you&rsquo;d like access to the Slack channel please e-mail support &ndash;at___ serpicoproject.com or consider purchasing an <a href="https://license.serpicoproject.com">individual license</a> =). As of today, the IRC channel will no long be a monitored platform for support.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Visit Us At Blackhat Arsenal 2017]]></title>
