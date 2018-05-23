@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2018-05-23T16:08:41-04:00</updated>
+  <updated>2018-05-23T16:17:41-04:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA["Generating Status Document during Assessment" Video]]></title>
+    <link href="https://serpicoproject.github.io/blog/2018/05/23/generating-status-document-for-assessment-video/"/>
+    <updated>2018-05-23T16:11:54-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2018/05/23/generating-status-document-for-assessment-video</id>
+    <content type="html"><![CDATA[<p>A quick video how to on generating status updates in Serpico:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N_yFYDvq1mw" frameborder="0" allowfullscreen></iframe>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrating Support to Slack]]></title>
