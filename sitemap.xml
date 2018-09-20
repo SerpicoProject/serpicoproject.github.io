@@ -1,133 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2018/05/23/generating-status-document-for-assessment-video/</loc>
-    <lastmod>2018-05-23T16:11:54-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2018/05/16/migrating-support-to-slack/</loc>
-    <lastmod>2018-05-16T14:42:11-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2017/07/22/visit-us-at-blackhat-arsenal-2017/</loc>
-    <lastmod>2017-07-22T21:53:41-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2017/07/22/serpico-1-dot-2-feature-serpico-has-vector-strings/</loc>
-    <lastmod>2017-07-22T21:45:59-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2017/07/22/serpico-gets-risk-matrix-reporting/</loc>
-    <lastmod>2017-07-22T21:25:01-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2017/07/22/serpico-supports-cvssv3/</loc>
-    <lastmod>2017-07-22T21:10:05-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2017/07/22/serpico-1-dot-2-feature-plug-in-framework/</loc>
-    <lastmod>2017-07-22T20:47:54-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone/</loc>
-    <lastmod>2017-04-21T08:20:32-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example/</loc>
-    <lastmod>2016-12-17T18:44:02-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico/</loc>
-    <lastmod>2016-12-17T11:54:57-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0/</loc>
-    <lastmod>2016-12-05T15:33:36-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2016/09/30/serpico-1-dot-0-is-out/</loc>
-    <lastmod>2016-09-30T13:40:59-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2016/08/19/long-live-rubyzip/</loc>
-    <lastmod>2016-08-19T00:00:01-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/2016/08/19/boot/</loc>
-    <lastmod>2016-08-19T00:00:01-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  
-  <url>
-    <loc>https://serpicoproject.github.io/</loc>
-    <lastmod>2018-05-23T20:06:34-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/blog/archives/</loc>
-    <lastmod>2018-05-23T20:06:34-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/faq/</loc>
-    <lastmod>2018-05-23T20:06:34-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/support/</loc>
-    <lastmod>2018-05-23T20:06:34-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/about/</loc>
-    <lastmod>2018-05-23T20:06:34-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://serpicoproject.github.io/list_posts.html</loc>
-    <lastmod>2018-05-23T20:06:34-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
+<url>
+<loc>https://serpicoproject.github.io/blog/2018/09/20/welcome-odle/</loc>
+<lastmod>2018-09-20T12:59:39-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2018/05/23/generating-status-document-for-assessment-video/</loc>
+<lastmod>2018-05-23T16:11:54-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2018/05/16/migrating-support-to-slack/</loc>
+<lastmod>2018-05-16T14:42:11-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2017/07/22/visit-us-at-blackhat-arsenal-2017/</loc>
+<lastmod>2017-07-22T21:53:41-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2017/07/22/serpico-1-dot-2-feature-serpico-has-vector-strings/</loc>
+<lastmod>2017-07-22T21:45:59-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2017/07/22/serpico-gets-risk-matrix-reporting/</loc>
+<lastmod>2017-07-22T21:25:01-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2017/07/22/serpico-supports-cvssv3/</loc>
+<lastmod>2017-07-22T21:10:05-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2017/07/22/serpico-1-dot-2-feature-plug-in-framework/</loc>
+<lastmod>2017-07-22T20:47:54-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone/</loc>
+<lastmod>2017-04-21T08:20:32-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example/</loc>
+<lastmod>2016-12-17T18:44:02-05:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico/</loc>
+<lastmod>2016-12-17T11:54:57-05:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0/</loc>
+<lastmod>2016-12-05T15:33:36-05:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2016/09/30/serpico-1-dot-0-is-out/</loc>
+<lastmod>2016-09-30T13:40:59-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2016/08/19/long-live-rubyzip/</loc>
+<lastmod>2016-08-19T00:00:01-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/2016/08/19/boot/</loc>
+<lastmod>2016-08-19T00:00:01-04:00</lastmod>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/</loc>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/blog/archives/</loc>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/support/</loc>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/faq/</loc>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/about/</loc>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/list_posts.html</loc>
+</url>
 </urlset>

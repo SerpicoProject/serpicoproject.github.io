@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Serpico Gets Risk Matrix Reporting - SerpicoProject</title>
+  <title>Welcome Odle - SerpicoProject</title>
   <meta name="author" content="SerpicoProject">
 
   
-  <meta name="description" content="Serpico Gets Risk Matrix Reporting In the last few weeks thanks to contributors and the Serpico team members’ updates, new report types have been &hellip;">
+  <meta name="description" content="Welcome Odle Importing scan data has been a long standing thorn in our side. To decouple the import process and encourage new import formats I &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -110,22 +110,19 @@
   </div>
   
     <h1>
-      Serpico Gets Risk Matrix Reporting
+      Welcome Odle
     </h1>
   
 </header>
 
-  <section><p>In the last few weeks thanks to contributors and the Serpico team members’ updates, new report types have been added to the framework. One of the recent additions was the Risk Matrix scoring submitted by geckom. <!-- more --></p>
+  <section><p>Importing scan data has been a long standing thorn in our side. To decouple the import process and encourage new import formats I authored a Ruby gem named <a href="https://github.com/BuffaloWill/odle">odle</a>(<a href="https://rubygems.org/gems/odle">rubygem</a>). odle takes XML data from various security tools and outputs their JSON equivalent. The goal is to be (1) simple, (2) fast, and (3) work on many platforms with only one dependency &ndash; nokogiri. Serpico now supports odle as a means of importing scan data.</p>
 
-<p>Similar to other report types, switching to Risk Matrix is simple. Just change the Risk Scoring Algorithm under the Administration menu -&gt; Modify Configurations.</p>
+<p><img style="border:1px solid black center" height=350 width=550 src="/images/odle_import.jpg"></p>
 
-<p><img style="border:1px solid black center" height=100 width=350 src="/images/rixk.jpg"></p>
+<!-- more -->
 
-<p>With Risk Matrix enabled, we find new options when editing or adding a new finding. We have Vulnerability Risk Level, Severity, Severity Rationale, Likelihood and Likelihood Rationale options in our findings.</p>
 
-<p><img style="border:1px solid black center" height=350 width=550 src="/images/risk_matrix.jpg"></p>
-
-<p>If you’re at Black Hat next week stop by and check out these new features in action. We’ll be at the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
+<p>Moving forward we would like to move away from other import processes including removing Metasploit integration. I believe this will allow us to support more input formats while making it far simpler to troubleshoot import issues. Also, the community as a whole benefits from odle rather than just the Serpico project. Cheers!</p>
 </section>
 
 

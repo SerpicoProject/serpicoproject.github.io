@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2018-05-23T20:06:34-04:00</updated>
+  <updated>2018-09-20T13:34:43-04:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome Odle]]></title>
+    <link href="https://serpicoproject.github.io/blog/2018/09/20/welcome-odle/"/>
+    <updated>2018-09-20T12:59:39-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2018/09/20/welcome-odle</id>
+    <content type="html"><![CDATA[<p>Importing scan data has been a long standing thorn in our side. To decouple the import process and encourage new import formats I authored a Ruby gem named <a href="https://github.com/BuffaloWill/odle">odle</a>(<a href="https://rubygems.org/gems/odle">rubygem</a>). odle takes XML data from various security tools and outputs their JSON equivalent. The goal is to be (1) simple, (2) fast, and (3) work on many platforms with only one dependency &ndash; nokogiri. Serpico now supports odle as a means of importing scan data.</p>
+
+<p><img style="border:1px solid black center" height=350 width=550 src="https://serpicoproject.github.io/images/odle_import.jpg"></p>
+
+<!-- more -->
+
+
+<p>Moving forward we would like to move away from other import processes including removing Metasploit integration. I believe this will allow us to support more input formats while making it far simpler to troubleshoot import issues. Also, the community as a whole benefits from odle rather than just the Serpico project. Cheers!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA["Generating Status Document during Assessment" Video]]></title>
