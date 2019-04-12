@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://serpicoproject.github.io/blog/2019/04/12/ui-refresh/</loc>
+<lastmod>2019-04-12T15:40:06-04:00</lastmod>
+</url>
+<url>
 <loc>https://serpicoproject.github.io/blog/2018/09/20/welcome-odle/</loc>
 <lastmod>2018-09-20T12:59:39-04:00</lastmod>
 </url>
@@ -34,23 +38,23 @@
 </url>
 <url>
 <loc>https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone/</loc>
-<lastmod>2017-04-21T08:20:32-04:00</lastmod>
+<lastmod>2017-04-21T05:20:32-07:00</lastmod>
 </url>
 <url>
 <loc>https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example/</loc>
-<lastmod>2016-12-17T18:44:02-05:00</lastmod>
+<lastmod>2016-12-17T15:44:02-08:00</lastmod>
 </url>
 <url>
 <loc>https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico/</loc>
-<lastmod>2016-12-17T11:54:57-05:00</lastmod>
+<lastmod>2016-12-17T08:54:57-08:00</lastmod>
 </url>
 <url>
 <loc>https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0/</loc>
-<lastmod>2016-12-05T15:33:36-05:00</lastmod>
+<lastmod>2016-12-05T12:33:36-08:00</lastmod>
 </url>
 <url>
 <loc>https://serpicoproject.github.io/blog/2016/09/30/serpico-1-dot-0-is-out/</loc>
-<lastmod>2016-09-30T13:40:59-04:00</lastmod>
+<lastmod>2016-09-30T10:40:59-07:00</lastmod>
 </url>
 <url>
 <loc>https://serpicoproject.github.io/blog/2016/08/19/long-live-rubyzip/</loc>
@@ -67,13 +71,13 @@
 <loc>https://serpicoproject.github.io/blog/archives/</loc>
 </url>
 <url>
-<loc>https://serpicoproject.github.io/support/</loc>
-</url>
-<url>
 <loc>https://serpicoproject.github.io/faq/</loc>
 </url>
 <url>
 <loc>https://serpicoproject.github.io/about/</loc>
+</url>
+<url>
+<loc>https://serpicoproject.github.io/support/</loc>
 </url>
 <url>
 <loc>https://serpicoproject.github.io/list_posts.html</loc>

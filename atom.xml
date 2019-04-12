@@ -4,7 +4,7 @@
   <title><![CDATA[SerpicoProject]]></title>
   <link href="https://serpicoproject.github.io/atom.xml" rel="self"/>
   <link href="https://serpicoproject.github.io/"/>
-  <updated>2018-09-20T13:34:43-04:00</updated>
+  <updated>2019-04-12T15:50:10-04:00</updated>
   <id>https://serpicoproject.github.io/</id>
   <author>
     <name><![CDATA[SerpicoProject]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[UI Refresh]]></title>
+    <link href="https://serpicoproject.github.io/blog/2019/04/12/ui-refresh/"/>
+    <updated>2019-04-12T15:40:06-04:00</updated>
+    <id>https://serpicoproject.github.io/blog/2019/04/12/ui-refresh</id>
+    <content type="html"><![CDATA[<p>Thanks to a massive effort by <a href="https://github.com/MaxNad">@MaxNad</a> Serpico has a new refreshed UI. As a result the web interface is far more responsive, fits better on different screen resolutions, significantly cleaner code, and other benefits. Best of all it should make it even easier to commit updates in the future. DECENT!</p>
+
+<p><img style="border:1px solid black" height=350 width=550 src="https://serpicoproject.github.io/images/updated_ui.png"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Welcome Odle]]></title>
@@ -48,7 +59,7 @@
     <link href="https://serpicoproject.github.io/blog/2018/05/16/migrating-support-to-slack/"/>
     <updated>2018-05-16T14:42:11-04:00</updated>
     <id>https://serpicoproject.github.io/blog/2018/05/16/migrating-support-to-slack</id>
-    <content type="html"><![CDATA[<p>Over the past few months the team has been migrating Serpico support away from IRC and over to Slack. If you&rsquo;d like access to the Slack channel please e-mail support &ndash;at___ serpicoproject.com or consider purchasing an <a href="https://license.serpicoproject.com">individual license</a>. As of today, the IRC channel will no long be a monitored platform for support.</p>
+    <content type="html"><![CDATA[<p>Over the past few months the team has been migrating Serpico support away from IRC and over to Slack. If you&rsquo;d like access to the Slack channel please e-mail support &ndash;at___ serpicoproject.com. As of today, the IRC channel will no long be a monitored platform for support.</p>
 ]]></content>
   </entry>
   
@@ -141,7 +152,7 @@ the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
   <entry>
     <title type="html"><![CDATA[Serpico on a Beaglebone - Arsenal 2016]]></title>
     <link href="https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone/"/>
-    <updated>2017-04-21T08:20:32-04:00</updated>
+    <updated>2017-04-21T05:20:32-07:00</updated>
     <id>https://serpicoproject.github.io/blog/2017/04/21/serpico-on-a-beaglebone</id>
     <content type="html"><![CDATA[<p>Just wanted to share a cool image from last year&rsquo;s <a href="https://www.blackhat.com/us-16/arsenal.html#serpico">BlackHat Arsenal</a>
 <img style="border:1px solid black center" height=350 width=550 src="https://serpicoproject.github.io/images/beaglebone.jpg"></p>
@@ -160,7 +171,7 @@ the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
   <entry>
     <title type="html"><![CDATA[UDV Worksheet - Plugin Tradecraft]]></title>
     <link href="https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example/"/>
-    <updated>2016-12-17T18:44:02-05:00</updated>
+    <updated>2016-12-17T15:44:02-08:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/12/17/udv-worksheet-example</id>
     <content type="html"><![CDATA[<p>The <a href="https://github.com/SerpicoProject/SerpicoPlugins/tree/master/UDV_Worksheet">UDV Worksheet</a> plugin allows administrators to create questions that can be filled out by consultants. The answers are inserted into the report as User Defined Variables<!-- more -->. It is really handy because it can centralize questions that are typically added in an assessment while still allowing them to be used throughout a report template.</p>
 
@@ -195,7 +206,7 @@ the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
   <entry>
     <title type="html"><![CDATA[Monkey Patching Serpico]]></title>
     <link href="https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico/"/>
-    <updated>2016-12-17T11:54:57-05:00</updated>
+    <updated>2016-12-17T08:54:57-08:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/12/17/monkey-patching-serpico</id>
     <content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Monkey_patch">Monkey Patching</a> is a technique to modify the way a dynamic language operates at run time. One of the goals we had from the plug-in framework is that it would allow a developer to overwrite parts of Serpico. <!-- more --> Specifically, a developer could completely modify the way some part of their reporting process works with a minimal amount of code.</p>
 
@@ -256,7 +267,7 @@ the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
   <entry>
     <title type="html"><![CDATA[Release 1.1.0 is out]]></title>
     <link href="https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0/"/>
-    <updated>2016-12-05T15:33:36-05:00</updated>
+    <updated>2016-12-05T12:33:36-08:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/12/05/release-1-dot-1-0</id>
     <content type="html"><![CDATA[<p>Release <a href="https://github.com/SerpicoProject/Serpico/releases/tag/1.1.0">1.1.0</a> went out on Friday. It&rsquo;s <!-- more --> a relatively small release feature wise but there are a couple of things to call out:</p>
 
@@ -277,7 +288,7 @@ the Arsenal track on Thursday, July 27th from 10:00am-11:20am.</p>
   <entry>
     <title type="html"><![CDATA[Serpico 1.0.0 is out]]></title>
     <link href="https://serpicoproject.github.io/blog/2016/09/30/serpico-1-dot-0-is-out/"/>
-    <updated>2016-09-30T13:40:59-04:00</updated>
+    <updated>2016-09-30T10:40:59-07:00</updated>
     <id>https://serpicoproject.github.io/blog/2016/09/30/serpico-1-dot-0-is-out</id>
     <content type="html"><![CDATA[<p>BlackHat Arsenal marked the first alpha release of Serpico. Today, after a major effort in the release cycle from Petessss we have hit <a href="https://github.com/SerpicoProject/Serpico/releases/tag/1.0">1.0.0</a>. There&rsquo;s <!-- more --> a lot of stuff in here (55 issues closed since last release; numerous features and bugs) but there are a few things I want to call out:</p>
 
